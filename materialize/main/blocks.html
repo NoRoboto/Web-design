@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <style>
+  .col{
+    padding: 0 !important;
+  }
+  .row{
+    margin-bottom: 0px !important;
+    padding: 0 !important;
+  }
+  .text{
+	  font-family: "Poppins","Helvetica",arial,sans-serif;
+  }
+
+  .header-text{
+    margin: 0;
+	  padding: 0;
+    color: white;
+    font-weight: 900;
+    line-height: 120%;
+    font-size: calc(90% + 7vh);
+  }
+
+  .img {
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .img1{
+    background-image:url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-513731.jpg");
+  }
+
+  .img2{
+    background-image:url("http://c1.staticflickr.com/9/8335/8084199470_f0d5e00c1a_c.jpg");
+  }
+
+  .img3{
+    background-image:url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-485270.jpg");
+  }
+
+  .text-centered{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+
+  .text1{
+    font-weight: 900;
+    font-size: 250%;
+    line-height: 110%;
+  }
+
+  .text2{
+    margin-left: 2%;
+    color: black;
+    font-size: 110%;
+  }
+
+  .carousel-slider{
+    height: 100% !important;
+  }
+  </style>
+</head>
+<body>
+  <!-- Head -->
+    <div class="row">
+      <div class="col s12 img img1" style="height: 87vh; position: relative;">
+        <div class="col s12" style="height: 50%; bottom:3.5%; text-align: left; position: absolute; width: 90%; z-index: 2; margin-left:3%">
+          <h1 class="text header-text"> Meet aTa, <br> the modular <br> origami.</h1>
+          <a class="waves-effect waves-light btn-large" style="margin-top:20px"><i class="material-icons left">play_arrow</i>Watch</a>
+        </div>
+      </div>
+    </div>
+  <!-- First section -->
+    <div class="row">
+      <div class="col s6" style="background-color: white; height: 75vh; position: relative;">
+        <div class="row">
+          <div class="col s12" style="background-color: #fafafa; height: 42vh; position: relative;">
+            <h2 class="text text-centered text1">Life and origami change <br> quickly. So does aTa.</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s6" style="background-color: #00bcd4; height: 33vh; position: relative;">
+            <a class="text text-centered text2"><i class="small material-icons">call_made</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+          <div class="col s6" style="background-color: #f44336; height: 33vh; position: relative;">
+            <a class="text text-centered text2"><i class="small material-icons">loop</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col s6" style="height: 75vh; position: relative;">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+          </div>
+          <div class="carousel-item cyan white-text" href="#one!">
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+          </div>
+          <div class="carousel-item red white-text" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+          </div>
+          <div class="carousel-item brown white-text" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Second section -->
+    <div class="row">
+      <div class="col s6 img img2" style="height: 40vh; position: relative;"></div>
+      <div class="col s6" style="background-color: #f5f5f5; height: 40vh; position: relative;">
+        <a class="text text-centered text2"><i class="small material-icons">dashboard</i>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Suspendisse tempor blandit urna, a laoreet dolor interdum quis.
+          Etiam consectetur elementum leo quis vulputate.
+        </a>
+      </div>
+    </div>
+
+  <!-- Third section -->
+    <div class="row">
+      <div class="col s6" style="background-color: #f5f5f5; height: 40vh; position: relative;">
+        <a class="text text-centered text2"><i class="small material-icons">dashboard</i>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Suspendisse tempor blandit urna, a laoreet dolor interdum quis.
+          Etiam consectetur elementum leo quis vulputate.
+        </a>
+      </div>
+      <div class="col s6 img img3" style="height: 40vh; position: relative;"></div>
+    </div>
+
+  <!-- footer -->
+    <div class="row" style="background-color: black;">
+      <div class="col s12" style="height: 10vh; position: relative; text-overflow: clip;">
+        <h4 class="text-centered" style="color: white;">
+          <a href="https://github.com/NoRoboto/Web-design/tree/master/materialize" style="color: inherit;"><i class="small material-icons">info_outline</i>NoRoboto Web Designs</a>
+        </h4>
+      </div>
+    </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script>
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    setInterval(function() {
+      $('.carousel').carousel('next');
+    }, 5000); // every 5 seconds
+  </script>
+</body>
+</html>
